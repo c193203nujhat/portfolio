@@ -1,0 +1,126 @@
+
+.header-container{
+    height:100%;
+    background-color:var(--background-color);
+    background-image:url(./image/banner/Rectangle\ 5.png);
+    background-repeat: no-repeat;
+    background-position:center top ;
+}
+
+
+.nav{
+    color:var(--font-primary-color);
+     display:flex ;
+     gap:20px;
+     justify-content:space-between;
+     font-size: 30px;
+
+}
+#right-menu-icon-id{
+    width: 175px;
+    text-align:left;
+}
+.banner-title h1{
+    font-size: 98px;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 7px;
+    margin: 10px 0px;
+}
+
+.banner-desc {
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin: 10px 0px;
+}
+
+
+    
+    
+    
+
+
+.banner-image-container{
+    background-color: var(--font-primary-color);
+    width:fit-content;
+}
+.banner-profile-container{
+    display:flex;
+    justify-content: space-between;
+    border-top: 1px solid var(--font-primary-color);
+    border-bottom: 1px solid var(--font-primary-color);
+}
+.banner-profile-desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    font-size: 10px;
+}
+.work-icon-container{
+    display: flex;
+    gap: 10px;
+    padding: 15px 0px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+     }
+.check-icon{
+    height: 10px;
+    width: 10px;
+    
+}
+
+#banner-image{
+    height: 250px;
+    text-transform: uppercase;
+}
+.complete-project-card{
+    display: flex;
+    border: 2px solid red;
+}
+.complete_project-card h1{
+    font-size: 152px;
+    text-transform: uppercase;
+    display: flex;
+     justify-content: space-between;
+
+}
+
+.complete_project-card p{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.complete_project-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (min-width:200px) and (max-width:576px) {
+    .container{
+        padding: 0px 5px;
+    }
+    .nav{
+        color: brown;
+        font-size: 16px;
+    }
+    .complete_project-container{
+        flex-direction: column;
+    }
+
+    .banner-profile-container{
+        display:flex;
+        flex-direction: column;
+        
+    }
+    .banner-image-container{
+        width:100%;
+    }
+    #banner-image{
+        width: 100%;
+    }
+    .banner-title h1{
+        font-size: 25px; 
+    }
+    
+}
